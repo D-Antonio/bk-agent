@@ -1,0 +1,42 @@
+{
+    "gdrive": {
+        "installed": {
+            "client_id": "your_client_id_here",
+            "project_id": "your_project_id_here",
+            "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+            "token_uri": "https://oauth2.googleapis.com/token",
+            "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+            "client_secret": "your_client_secret_key_here",
+            "redirect_uris": [
+                "http://localhost"
+            ]
+        }
+    },
+    "onedrive": {
+        "client_id": "your_client_id_key_here",
+        "client_secret": "your_client_secret_key_here"
+    },
+    "aws": {
+        "aws_access_key": "your_aws_access_key_here",
+        "aws_secret_key": "your_aws_secret_key_here",
+        "bucket_name": "your-bucket-name",
+        "region": "us-east-1"
+    },
+    "azure": {
+        "connection_string": "DefaultEndpointsProtocol=https;AccountName=your_account;AccountKey=your_key;EndpointSuffix=core.windows.net",
+        "container_name": "your-backup-container"
+    },
+    "encryption": {
+        "key": "your_encryption_key_here"
+    },
+    "server": {
+        "host": "API_BASE_URL (sin el https://)"
+    },
+    "email": {
+        "smtp_server": "smtp.yourserver.com",
+        "smtp_port": 587,
+        "sender_email": "your-email@domain.com",
+        "receiver_email": "admin@domain.com",
+        "password": "your-email-password"
+    }
+} 
